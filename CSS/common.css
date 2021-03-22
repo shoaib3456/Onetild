@@ -1,0 +1,15 @@
+.custom-btn-1{
+    padding-top: 0 !important;
+    padding-bottom:0 !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:353px){
+    .custom-btn-1{
+        padding:  10px;
+        font-size: 12px;
+        margin: 0 5px !important;
+    }
+
+}

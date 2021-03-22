@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneTilde | My Profile</title>
+    <link rel="shortcut icon" href="../images/header/Navigation bar icon/browser logo.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/nav_tabs.css">
+    <link rel="stylesheet" href="../CSS/slider.css">
+    <link rel="stylesheet" href="../CSS/profile.css">
+    <link rel="stylesheet" href="../CSS/posts.css">
+    <link rel="stylesheet" href="../CSS/notification.css">
+    <link rel="stylesheet" href="../CSS/file_popup.css">
+    
+    
+</head>
+
+<body style="background-color: black;">
+    <header id="header">
+        <div style="width: 93%;" class="container-fluid">
+            <div class="d-flex justify-content-between pt-4">
+                <div class="">
+                    <div class="d-flex flex-row">
+                        <a href="../Index_user.html"><img class=" img-fluid logo-sizing head-btn"
+                                src="../images/header/Navigation bar icon/New OneTilde Logo.png" alt=""></a>
+                        <a href="../Index_user.html"><img class=" img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/home button png.png" alt=""></a>
+                        <a href="../Discover_Page/discover_user.html"><img class=" img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Discover icon.png" alt=""></a>
+                        <a class="" href="../Subscription/Subscription.html"><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/subscriptions feed button.png" alt=""></a>
+                        <a  href="../Saved_Page/saved_page.html" ><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Fire navigation icon png.png" alt="">
+                               </a>
+                        <div >
+                            <a href="../New_Post_Page/new_post_page.html" >
+                                <img class=" button-size head-btn"
+                                    src="../images/header/Navigation bar icon/new post button.png" alt="">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="float-right d-flex flex-row">
+                        <a href="../search_page/search.html"><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Search icon png.png" alt=""></a>
+                        <a href="#">
+                            <div class="dropdown show notification-dropdown">
+                                <a class="  dropdown-toggle p-0" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="../images/header/Navigation bar icon/notification off button.png"
+                                        class="img-fluid button-size head-btn" alt="">
+                                </a>
+
+                                <div class="dropdown-menu notification-sec" aria-labelledby="dropdownMenuLink">
+                                    <div class="notif-first-child">
+                                        <div class="notif-body">
+                                            <span class="notif-head">Activity</span>
+                                            <div class="notif-items">
+                                                <span>Brand Name</span>
+                                                <span>Saved/commented on/replied to/subscribed to this post</span>
+                                            </div>
+                                            <div class="notif-items">
+                                                <span>Brand Name</span>
+                                                <span>Saved/commented on/replied to/subscribed to this post</span>
+                                            </div>
+                                        </div>
+                                        <button class="load-btn">Load more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="header-rectangle">
+                                <div class="dropdown show ">
+                                    <a class="  dropdown-toggle p-0 dots-size" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../images/web-images/demo.jpg" alt="">
+                                        <img class="mx-auto d-flex flex-column img-fluid "
+                                        src="../images/header/Navigation bar icon/Select icon png.png" alt="">
+                                    </a>
+
+                                    <div class="dropdown-menu user-drop" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="../profile_page/profile_page.html">My Profile</a>
+                                        <a class="dropdown-item"
+                                            href="../edit_profile/edit_profile.html#edit-profile">Edit Profile</a>
+                                        <a class="dropdown-item"
+                                            href="../edit_profile/edit_profile.html#settings">Settings</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#about-us">About Us</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#content">Content</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#privacy">Privacy</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#advertise">Advertise</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Log Out</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+  <!-- file popup msg -->
+  <div class="modal fade p-0" id="filemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit post pitcher </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <input type="file" name="" id="">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="popup-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="row m-0 px-lg-4 px-2  profile-head">
+        <div class="col-lg-8 m-0 profile-brand-1 ">
+            <div class="plus-icon">
+                <img src="../Images/header/Navigation bar icon/new post button.png" alt="" data-toggle="modal" data-target="#filemodal">
+            </div>
+            <img src="../Images/web-images/tab-image-1.jpg" class="img-fluid profile-highlight-img card-rounded-50 " alt="">
+        </div>
+        <div class="col-lg-4  bg-white profile-brand  p-0 m-0 ">
+            <img src="../Images/web-images/profile-img.jpg" class="profile-image " alt="">
+            <h3 class="col-12 justify-content-center d-flex align-items-center ">Brand Name <img
+                    src="../Images/profile/verified icon.png" class="mx-2" alt=""></h3>
+            <div class="profile-card-text mx-auto">
+                caption .Maximum 200 charcters.All of the world are in the grey box. The a
+                ctual design does not have yellow box, this is a just a visulaization purpose.
+            </div>
+            <div class="d-flex align-items-center justify-content-between px-4 py-3 profile-btn">
+                <button>New Post</button>
+                <button>Edit Profile</button>
+                <button>Vist Shop</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-lg-4 mx-2 row pt-2 justify-content-center">
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-1.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo.jpg" class="posts-rectangle"></img></a>
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-2.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo-2.jpg" class="posts-rectangle"></img></a>
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-3.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo-2.jpg" class="posts-rectangle"></img></a>
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-4.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo-2.jpg" class="posts-rectangle"></img></a>
+
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-5.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo-2.jpg" class="posts-rectangle"></img></a>
+
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-parent">
+            <div class="card bg-white col-12 card-deck-rounded-parent-50">
+                <img class=" img-fluid card-deck-rounded-50" src="../Images/web-images/post-6.jpg"
+                    alt="Card image cap">
+                <div class="card-body pt-0 pt-md-3 px-2">
+                    <div class=" px-md-1 row no-gutters align-items-center">
+                        <div class="col-md-6 col-6">
+                            <p class="card-title mt-1 mb-1 h4">Brand Name</p>
+                        </div>
+                        <div class="col-md-6 col-6 text-right offset-md-0">
+                            <span class="h5 card-date">October 21, 2020</span>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="d-flex flex-row">
+                                <a><img src="../Images/web-images/demo-2.jpg" class="posts-rectangle"></img></a>
+
+                                <button class="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="float-right">
+                                <a class="mr-md-1" href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/Share button clicking.png" alt=""></a>
+                                <a href=""><img class="img-fluid card-icon"
+                                        src="../images/Posts/fire faded for posts png.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+    </section>
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.modal-content{
+    border-radius: 10px !important;
+}
+.modal-backdrop.show{
+    z-index: 2 !important;
+}
+.fade:not(.show) {
+    z-index: -1;
+}
+
+.modal-body form{
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modal-title{
+ font-size: 22px;
+}
+.popup-close{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    border-top: 1px solid rgb(199, 199, 199);
+}
+.popup-close {
+   padding: 4px 20px;
+   border: none;
+   background-color: black;
+   color: white;
+   border-radius: 4px;
+}

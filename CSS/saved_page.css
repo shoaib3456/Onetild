@@ -1,0 +1,121 @@
+.card-deck-rounded-50{
+    border-radius: 20px;
+    height: 401px;
+    width: 457px;
+}
+.card-deck-rounded-parent-50{
+    border-radius: 20px;
+    width: 457px;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+.card-icon{
+    width: 28px;
+    height: auto;
+}
+
+@media screen and (max-width:1920px){
+    .card-deck-rounded-50{
+        border-radius: 20px;
+        height: 592px;
+        width: 549px;
+    }
+    .card-deck-rounded-parent-50{
+        border-radius: 20px;
+        width: 540px;
+    }
+    
+    .btn-round{
+        border-radius: 50px;
+    }
+    .card-icon{
+        width: 42px;
+        height: auto;
+    }
+    .card-title{
+        font-size: 35px;
+    }
+    small.h6{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1720px){
+    .card-deck-rounded-50{
+        border-radius: 20px;
+        height: 523px;
+        width: 549px;
+    }
+    .card-deck-rounded-parent-50{
+        border-radius: 20px;
+        width: 540px;
+    }
+
+    .btn-round{
+        border-radius: 50px;
+    }
+    .card-icon{
+        width: 37px;
+        height: auto;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    small.h6{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1520px){
+    .card-deck-rounded-50{
+        border-radius: 20px;
+        height: 454px;
+        width: 549px;
+    }
+    .card-deck-rounded-parent-50{
+        border-radius: 20px;
+        width: 540px;
+    }
+ 
+    .btn-round{
+        border-radius: 50px;
+    }
+    .card-icon{
+        width: 32px;
+        height: auto;
+    }
+    .card-title{
+        font-size: 27px;
+    }
+    small.h6{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1366px){
+    .card-deck-rounded-50{
+        border-radius: 20px;
+        height: 401px;
+        width: 549px;
+    }
+    .card-deck-rounded-parent-50{
+        border-radius: 20px;
+        width: 540px;
+    }
+
+    .btn-round{
+        border-radius: 50px;
+    }
+    .card-icon{
+        width: 28px;
+        height: auto;
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    small.h6{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,8 @@
+.rounded-50{
+    border-radius: 20px;
+}
+@media screen and (max-width: 767px){
+    .rounded-50{
+        border-radius: 20px;
+    }
+}

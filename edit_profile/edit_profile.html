@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneTilde | Edit Profile</title>
+    <link rel="shortcut icon" href="../images/header/Navigation bar icon/browser logo.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/notification.css">
+    <link rel="stylesheet" href="../CSS/new_post_page.css">
+    <link rel="stylesheet" href="../CSS/edit-profile.css">
+    <link rel="stylesheet" href="../CSS/file_popup.css">
+    <link rel="stylesheet" href="../CSS/crop-edit.css">
+
+</head>
+
+<body style="background-color: black;">
+    <header id="header">
+        <div style="width: 93%;" class="container-fluid">
+            <div class="d-flex justify-content-between pt-4">
+                <div class="">
+                    <div class="d-flex flex-row">
+                        <a href="../Index_user.html"><img class=" img-fluid logo-sizing head-btn"
+                                src="../images/header/Navigation bar icon/New OneTilde Logo.png" alt=""></a>
+                        <a href="../Index_user.html"><img class=" img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/home button png.png" alt=""></a>
+                        <a href="../Discover_Page/discover_user.html"><img class=" img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Discover icon.png" alt=""></a>
+                        <a class="" href="../Subscription/Subscription.html"><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/subscriptions feed button.png" alt=""></a>
+                        <a class="" href="../Saved_Page/saved_page.html"><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Fire navigation icon png.png" alt=""></a>
+                        <div>
+                            <a href="../New_Post_Page/new_post_page.html">
+                                <img class=" button-size head-btn"
+                                    src="../images/header/Navigation bar icon/new post button.png" alt="">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="float-right d-flex flex-row">
+                        <a href="../search_page/search.html"><img class="img-fluid button-size head-btn"
+                                src="../images/header/Navigation bar icon/Search icon png.png" alt=""></a>
+                        <a href="#">
+                            <div class="dropdown show notification-dropdown">
+                                <a class="  dropdown-toggle p-0" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="../images/header/Navigation bar icon/notification off button.png"
+                                        class="img-fluid button-size head-btn" alt="">
+                                </a>
+
+                                <div class="dropdown-menu notification-sec" aria-labelledby="dropdownMenuLink">
+                                    <div class="notif-first-child">
+                                        <div class="notif-body">
+                                            <span class="notif-head">Activity</span>
+                                            <div class="notif-items">
+                                                <span>Brand Name</span>
+                                                <span>Saved/commented on/replied to/subscribed to this post</span>
+                                            </div>
+                                            <div class="notif-items">
+                                                <span>Brand Name</span>
+                                                <span>Saved/commented on/replied to/subscribed to this post</span>
+                                            </div>
+                                        </div>
+                                        <button class="load-btn">Load more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="header-rectangle">
+                                <div class="dropdown show ">
+                                    <a class="  dropdown-toggle p-0 dots-size" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../images/web-images/demo.jpg" alt="">
+                                        <img class="mx-auto d-flex flex-column img-fluid "
+                                        src="../images/header/Navigation bar icon/Select icon png.png" alt="">
+                                    </a>
+
+                                    <div class="dropdown-menu user-drop" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="../profile_page/profile_page.html">My Profile</a>
+                                        <a class="dropdown-item"
+                                            href="../edit_profile/edit_profile.html#edit-profile">Edit Profile</a>
+                                        <a class="dropdown-item"
+                                            href="../edit_profile/edit_profile.html#settings">Settings</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#about-us">About Us</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#content">Content</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#privacy">Privacy</a>
+                                        <a class="dropdown-item"
+                                            href="../navigation-pages/navigation-pages.html#advertise">Advertise</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Log Out</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <!-- file popup msg -->
+    <div class="modal fade p-0" id="filemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit post pitcher </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <input type="file" name="" id="">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="crop-parent d-none">
+        <div class="crop-div ">
+            <div class="crop-head">
+                <span>Crop and insert image</span>
+                <span>✕</span>
+            </div>
+            <div class="crop-img">
+                <div></div>
+            </div>
+            <input type="range" name="" id="">
+            <div class="crop-end">
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-crop">Crop image</button>
+            </div>
+        </div>
+    </div>
+
+    <section class=" class edit-sec container-fluid">
+        <div class="row m-0 pt-4">
+            <ul class="nav col-lg-3 d-flex flex-lg-column " id="myTab" role="tablist">
+                <li class="" role="presentation">
+                    <a class="edit-links" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                        aria-selected="true">Edit Profile</a>
+                </li>
+                <li class="" role="presentation">
+                    <a class="edit-links" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">Account Setting</a>
+                </li>
+            </ul>
+            <div class="tab-content col-lg-9 " id="myTabContent">
+                <div class="tab-pane fade text-light show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span class="h1">Edit Profile</span>
+                        <button class="common-btn" >Save</button>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex flex-column">
+                            <span class="h6 p-0 mb-1">Size (634Wx317H)</span>
+                            <img src="../Images/Section_Carousel/gray_rectangle.jpg" class="edit-img border-rounded"
+                                alt="">
+                        </div>
+                        <button class="common-btn ml-5" data-toggle="modal" data-target="#filemodal">Change</button>
+                    </div>
+                    <form action="">
+                        <div class="row mt-3">
+                            <div class="d-flex flex-column col-6">
+                                <label for="f-name">First name</label>
+                                <input type="text" id="f-name">
+                            </div>
+                            <div class="d-flex flex-column col-6">
+                                <label for="f-name">Last name</label>
+                                <input type="text" id="f-name">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column col-12 p-0 pt-3">
+                            <label for="f-name">Username </label>
+                            <input type="text" id="f-name">
+                        </div>
+                        <div class="d-flex flex-column col-12 p-0 pt-3">
+                            <label for="f-name">Bio </label>
+                            <input type="text" id="f-name">
+                        </div>
+                        <div class="d-flex flex-column col-12 p-0 py-3">
+                            <label for="f-name">Email </label>
+                            <input type="text" id="f-name">
+                        </div>
+                        <span class="h5 ">Website</span>
+                        <div class="my-2 destination d-flex justify-content-between align-items-center">
+                            <span class="h5 p-0 m-0">Https://www.</span>
+                            <input type="text" class=" border-rounded py-1">
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade col-lg-9 text-light " id="profile" role="tabpanel"
+                    aria-labelledby="profile-tab">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span class="h1">Account Setting</span>
+                        <button class="common-btn">Save</button>
+                    </div>
+                    <span class="h4 mt-4 ">Change Password</span>
+                    <form action="">
+                        <div class="row mt-3">
+                            <div class="d-flex flex-column col-6">
+                                <label for="f-name">Old Password</label>
+                                <input type="text" id="f-name">
+                            </div>
+                            <div class="d-flex flex-column col-6">
+                                <label for="f-name">New Password</label>
+                                <input type="text" id="f-name">
+                            </div>
+                        </div>
+                    </form>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="h4">Delete account and data</span>
+                        <button class="del common-btn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

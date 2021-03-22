@@ -1,0 +1,76 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff00;
+    
+}
+.nav-pills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link.active{
+    border-bottom: white 2px solid;
+}
+
+.nav-pills a{
+    color: white;
+    border-radius:0 !important;
+    padding-bottom: 2px;
+    margin-bottom: 0 !important;
+}
+
+.tabs-rounded-50{
+    border-radius: 20px;
+    height: 233px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1920px){
+    .tabs-rounded-50{
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:1720px){
+    .tabs-rounded-50{
+        height: 291px;
+    }
+}
+
+@media screen and (max-width:1520px){
+    .tabs-rounded-50{
+        height: 253px;
+    }
+}
+
+@media screen and (max-width:1366px){
+    .tabs-rounded-50{
+        height: 233px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .tabs-rounded-50{
+        height: 233px;
+    }
+    #nav_tabs .container-fluid .row .col-md-12 .tab-content .tab-pane .row .col-6{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #nav_tabs .container-fluid .row .col-md-12 .tab-content .tab-pane .row .col-12{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+}
+
+@media screen and (max-width:670px){
+    .tabs-rounded-50{
+        height: 150px;
+    }
+    .nav-link.h4{
+        font-size: small;
+    }
+    
+}

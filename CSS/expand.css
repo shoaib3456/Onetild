@@ -1,0 +1,129 @@
+.expand-post{
+    background-color: white;
+    border-radius: 10px;
+    width: 900px;
+    color: black;
+}
+.ex-img{
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+}
+.ex-rectangle{
+    width: 70px;
+    height: 37px;
+    border-radius: 5px;
+}
+.ex-subscribe{
+    background-color: rgb(79,79,79);
+    border-radius: 20px ;
+    border: none;
+    color: white;
+    padding: 0px 14px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    height: 37px;
+}
+.ex-post-icon img{
+  width: 29px;
+  margin: 0 5px;   
+}
+.ex-card-title span:nth-child(1){
+    font-weight: bold;
+    font-size: 23px;
+}
+.ex-card-title span:nth-child(2){
+    font-weight: bold;
+}
+.yellow-bg{
+    background-color: rgb(255, 255, 149);
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+.small-btn{
+    background-color: transparent;
+    color: rgb(73, 73, 73);
+    font-size: 13px;
+    border: none;
+    margin: 0 10px;
+    outline: none;
+}
+.small-btn:hover{
+    color: black;
+}
+.comment-box{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    color: rgb(49, 49, 49);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px ;
+    padding-bottom: 20px;
+}
+.comment-btn{
+    background-color: rgb(79,79,79);
+    border-radius: 20px ;
+    border: none;
+    color: white;
+    padding: 0px 14px;
+    font-size: 12px;
+    height: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+.ex-post-fire{
+    width: 13px;
+}
+.h7{
+    font-size: 12px;
+}
+
+.left-arrow{
+    position: absolute;
+    width: 100%;
+    padding-left: 30px;
+}
+.left-arrow span{
+    color: black;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ex-left-arrow{
+    height: 50px;
+    display: none !important; 
+}
+.ex-left-arrow span{
+    color: rgb(255, 255, 255);
+    background-color: rgb(212, 212, 212);
+    border-radius: 50%;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    font-weight: bold;
+}
+@media only screen and (max-width:1080px){
+    .expand-post{
+        width: 100%;
+        margin: 10px;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .ex-left-arrow{
+        display: flex !important;
+    }
+}

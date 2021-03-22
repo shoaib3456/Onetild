@@ -1,0 +1,19 @@
+.nav-link{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+.nav-link:hover{
+    color: rgb(221, 221, 221);
+}
+.nav-link.active{
+    font-weight: bold;
+    background-color: transparent !important;
+}
+
+@media only screen and (max-width:1199px){
+    .nav{
+        flex-direction: row !important;
+        justify-content: center;
+    }
+}

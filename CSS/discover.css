@@ -1,0 +1,95 @@
+.discover-border-50{
+    border-radius: 50px;
+}
+.discover-outline-right{
+    border-left: solid white 1px;
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.dis-btn {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.text-muted.active {
+    color: #000000!important;
+}
+
+
+.btn-round{
+    border-radius: 50px;
+}
+.card-icon{
+    width: 28px;
+    height: auto;
+}
+
+
+@media only screen and (max-width:840px){
+    .dis-btn{
+        font-size: 15px;
+        margin: 0 4px;
+        padding: 4px 14px;
+    }
+}
+
+@media only screen and (max-width:569px){
+    .dis-btn{
+        font-size: 12px;
+        margin: 0 4px;
+        padding: 4px 14px;
+    }
+    .dis-btn-head{
+        padding :0 5px;
+    }
+}
+@media only screen and (max-width:497px){
+    .dis-btn{
+        font-size: 12px;
+        margin: 0 4px;
+        padding: 4px 10px;
+    }
+   
+}
+@media only screen and (max-width:437px){
+    .dis-btn{
+        font-size: 12px;
+        margin: 0 2px;
+        padding: 4px 10px;
+    }
+}
+@media only screen and (max-width:411px){
+    .dis-btn{
+        font-size: 10px;
+        margin: 0 2px;
+        padding: 4px 10px;
+    }
+   
+}
+@media only screen and (max-width:367px){
+    .dis-btn{
+        font-size: 10px;
+        margin: 0 2px;
+        padding: 4px 9px;
+    }
+   
+}
+@media only screen and (max-width:355px){
+    .dis-btn{
+        font-size: 10px;
+        margin: 0 2px;
+        padding: 3px 7px;
+    }
+   
+}
+@media only screen and (max-width:1080px){
+    .time-drop.show {
+        display: none !important;
+    }
+    
+   
+}
+

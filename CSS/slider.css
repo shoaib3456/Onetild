@@ -1,0 +1,28 @@
+.slider-card {
+    background-color: transparent;
+    padding: 0 10px;
+}
+.slick-dots li button:before{
+    color: white;
+    opacity: 1;
+    font-size: 8px;
+}
+.slick-dots li.slick-active button:before {
+    color: rgb(0, 132, 255);
+    font-size: 8px;
+
+}
+.slick-arrow{
+    transform: scale(1.5);
+    top: 46%;
+}
+.slick-prev{
+    left: 20px;
+    z-index: 2;
+}
+.slick-next{
+    right: 20px;
+}
+.card-rounded-50{
+    border-radius: 20px;
+}

@@ -1,0 +1,86 @@
+.crop-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+}
+.crop-div{
+    background-color: white;
+    width: 800px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.crop-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    width: 100%;
+}
+.crop-img{
+    width: 100%;
+    padding: 30px;
+}
+.crop-img div{
+    height: 350px;
+    background-color: white;
+    border: 40px solid rgb(182, 182, 182);
+}
+.crop-div input{
+    width: 80%;
+    height: 4px;
+    padding: 0;
+    border: none;
+    display: flex;
+    background: grey;
+    outline: none;
+    border-radius: 1px;
+    -webkit-appearance: none;
+    margin-top: 50px;
+}
+.crop-div input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.crop-end{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin-top: 20px;
+}
+.btn-cancel{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 17px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.btn-crop{
+    background-color: rgb(70, 187, 55);
+    border: none;
+    color: white;
+    font-size: 17px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width:1024px){
+    .crop-div{
+        width: 100%;
+    }
+}
