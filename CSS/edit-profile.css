@@ -36,8 +36,32 @@ label{
 hr{
     border: 2px solid white;
 }
+.ep-heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+.del-acc-text{
+    font-size: 24px;
+    font-weight: 500;
+}
 @media only screen and (max-width:991px){
     .nav{
         justify-content: space-between;
+    }
+}
+@media(max-width:786px){
+    .edit-img{
+        width: 200px;
+    }
+    label[for="f-name"]{
+        font-size: 18px;
+    }
+    .ep-heading{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .del-acc-text{
+        font-size:19px;
+        font-weight: 500;
     }
 }

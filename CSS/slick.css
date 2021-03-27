@@ -117,8 +117,3 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-/* custom  */
-.slick-prev {
-    background-image: url(../Images/Section_Carousel/arrow-left.svg) !important;
-    background-color: red;
-}

@@ -34,8 +34,9 @@ header{
 }
 
 .logo-sizing{
-    width: 75px;
+    width: 60px;
     height: auto;
+    padding-top: 10px;
 }
 
 .dots-size{
@@ -70,6 +71,7 @@ header{
     }
     .logo-sizing{
         width: 40px;
+        padding-top: 0px;
     }
     .header-rectangle{
         width: 44px;

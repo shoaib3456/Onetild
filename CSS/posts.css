@@ -1,7 +1,11 @@
 .card-deck-rounded-50{
     border-radius: 20px;
-    height: 400px;
-    width: 100%;
+    width:100%;
+    height: calc((62vw) * 0.5625);
+}
+.card-parent{
+    padding: 10px;
+    width:33% ;
 }
 .card-deck-rounded-parent-50{
     border-radius: 23px;
@@ -22,10 +26,12 @@
 .card-icon{
     width: 28px;
     height: auto;
+    margin: 0 5px;
 }
+
 .subscribe-btn{
     background-color: rgb(79,79,79);
-    border-radius: 20px ;
+    border-radius: 16px ;
     border: none;
     color: white;
     padding: 0px 14px;
@@ -42,23 +48,93 @@
 }
 .card-body{
     padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 15px !important;
 }
 
-.card-parent{
-    padding: 10px;
-    max-width:33% ;
+
+.card-title{
+    font-weight: bold;
+    color: rgb(44, 44, 44);
 }
-/* @media only screen and(max-width:1080px){
-    .col-6{
-        width: 50% !important;
+.card-date{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    position: relative;
+    top:3px;
+}
+
+@media(max-width:1920px){
+    .card-title{
+        font-size: 32px;
     }
-} */
+    .card-date{
+        font-size: 20px;
+    }
+    .posts-rectangle{
+        width: 90px;
+        height: 60px;
+    }
+    .subscribe-btn{
+        height: 60px;
+        padding: 0 30px;
+        font-size: 22px;
+        border-radius: 25px;
+    }
+    .card-icon{
+        width: 38px;
+    }
+ 
+}
+@media(max-width:1424px){
+    .card-title{
+        font-size: 22px;
+    }
+    .card-date{
+        font-size: 15px;
+    }
+    .posts-rectangle{
+        width: 70px;
+        height: 50px;
+    }
+    .subscribe-btn{
+        height: 50px;
+        padding: 0 20px;
+        font-size: 18px;
+        border-radius: 25px;
+    }
+    .card-icon{
+        width: 34px;
+    }
+ 
+}
+@media(max-width:1366px){
+    .card-title{
+        font-size: 22px;
+    }
+    .card-date{
+        font-size: 15px;
+    }
+    .posts-rectangle{
+        width: 70px;
+        height: 40px;
+    }
+    .subscribe-btn{
+        height: 40px;
+        padding: 0 20px;
+        font-size: 15px;
+        border-radius: 17px;
+    }
+    .card-icon{
+        width: 25px;
+    }
+ 
+}
 
 @media (max-width: 984px){
     .card-parent{
         padding: 10px;
-        max-width:50% ;
+        max-width:400px;
     }
 }
 @media (max-width: 712px){
@@ -79,80 +155,92 @@
        width: 20px;
    }
 }
-@media (max-width:596px){
-    .card-deck-rounded-50{
-        height: 300px;
-    }
-}
-@media (max-width:554px){
+
+@media (max-width:1012px){
     .card-title{
-        font-size: 15px;
+        font-size: 19px;
+        padding-bottom: 0px;
     }
     .card-date{
+        top: 0px;
         font-size: 12px;
     }
     .subscribe-btn{
-     height: 30px;
-     padding: 0 10px;
-     margin-left: 5px;
+        font-size: 13px;
+        padding:0 10px;
+        height: 30px;
+        border-radius: 14px;
+        margin-left: 7px;
     }
     .posts-rectangle{
         height: 30px;
-        width:44px;
+        width: 44px;
     }
     .card-icon{
+        margin: 0 2px ;
         width: 20px;
     }
-    .card-deck-rounded-parent-50{
-        border-radius: 18px;
-    }
-    .card-deck-rounded-50{
-        border-radius: 14px;
-        height: 400px;
-        width: 100%;
-    }
 }
-@media (max-width:494px){
-    .card-deck-rounded-50{
-        height: 250px;
-    }
-}
-@media (max-width:454px){
-    .card-deck-rounded-50{
-        height: 220px;
-    }
+
+@media(max-width:831px){
     .card-title{
-        font-size: 12px;
-        font-weight: bold;
+        font-size: 15px;
+    }
+    .card-parent{
+        width:50% ;
+    }
+    .card-deck-rounded-50{
+        border-radius: 20px;
+        width:100%;
+        height: calc((88vw) * 0.5625);
+    }
+    .card-body{
+        padding-bottom: 5px !important;
+        padding-top: 5px !important;
+    }
+    .card-deck-rounded-50{
+        border-radius: 10px;
+    }
+    .card-deck-rounded-parent-50{
+        border-radius: 10px;
+    }
+}
+@media(max-width:490px){
+    .card-title{
+        font-size: 14px;
     }
     .card-date{
-        font-size:9px;
+        font-size: 11px;
     }
     .subscribe-btn{
-     height: 25px;
-     padding: 0 7px;
-     margin-left: 2px;
-     font-size: 11px;
-    }
-    .posts-rectangle{
-        height: 25px;
-        width:34px;
-    }
-    .card-icon{
-        width: 13px;
-        padding-bottom: 7px;
+        font-size: 10px;
     }
     .card-parent{
         padding: 5px;
     }
 }
-@media (max-width:390px){
-    .card-deck-rounded-50{
-        height: 190px;
+@media(max-width:506px){
+    .card-title{
+        font-size: 13px;
     }
-}
-@media (max-width:390px){
-    .card-deck-rounded-50{
-        height: 190px;
+    .card-date{
+        font-size: 9px;
+        top: -3px;
+    }
+    .subscribe-btn{
+        font-size: 8px;
+        padding: 0 8px;
+        height: 22px;
+        margin-left: 5px;
+    }
+    .card-parent{
+        padding: 5px;
+    }
+    .posts-rectangle{
+        width: 35px;
+        height: 22px;
+    }
+    .card-icon{
+        width: 14px;
     }
 }
